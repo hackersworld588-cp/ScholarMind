@@ -1,0 +1,26 @@
+# Python
+backend/venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite3
+.pytest_cache/
+
+# Storage & Large Artifacts (preserve samples)
+storage/uploads/*
+!storage/sample_images/
+storage/exports/*
+
+# Node & Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+.DS_Store
+*.env*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
