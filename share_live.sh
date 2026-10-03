@@ -23,5 +23,5 @@ echo "🔗 Creating a free, secure public HTTPS URL (via Cloudflare / Localtunne
 echo "📱 This URL works anywhere in the world on Mobile 4G/5G, Wi-Fi, and PC!"
 echo "----------------------------------------------------------"
 
-# Launch Localtunnel on port 3000
-npx -y localtunnel --port 3000
+# Launch Cloudflare Tunnel on port 3000
+"$PROJECT_DIR/cloudflared" tunnel --url http://localhost:3000
